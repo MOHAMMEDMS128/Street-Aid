@@ -1,0 +1,169 @@
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Aid</title>
+    <img src="img/logo4.jpg" alt="logo" height="150px" width="100%" /> 
+
+<style type="text/css">
+* { margin: 0px; padding: 0px; }
+body {
+    
+    background: #F8F8FF;
+    font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #1d3c41;
+    overflow-y: scroll;
+    height: 90%;
+}
+.header {
+    width: 270px;
+    margin: 10px auto 0px;
+    color: white;
+    background: #5399db;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+form, .content {
+    width: 270px;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 25px;
+    width: 90%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#user_type {
+    height: 40px;
+    width: 98%;
+    padding: 5px 10px;
+    background: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5399db;
+    border: none;
+    border-radius: 5px;
+}
+.error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+}
+.success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+.profile_info img {
+    display: inline-block; 
+    width: 50px; 
+    height: 50px; 
+    margin: 5px;
+    float: left;
+}
+.profile_info div {
+    display: inline-block; 
+    margin: 5px;
+}
+.profile_info:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#footer {
+background-color:#5399db;
+border-top:solid #ddd;
+color:white;
+text-align:center;
+font-size:23px;
+position: absolute;
+    left: 0;
+    bottom: 20px;
+    height: 30px;
+    width: 100%;
+}
+
+
+</style>
+
+</head> 
+<body> 
+    
+
+
+
+<div class="header">
+    <h2>Register</h2>
+</div>
+<form method="POST" action="connect.php"> 
+    <div class="input-group">
+        
+        <input type="text" name="name"  value="" required autofocus placeholder="Enter Your Name">
+    </div>
+    <div class="input-group">
+        
+        <input type="email" name="email"  value="" required placeholder="Enter Your Email">
+    </div>
+    <div class="input-group">
+        
+        <input type="password" name="password" required placeholder="Type your password">
+    </div>
+    <div class="input-group">
+        
+        <input type="password" name="password" required  placeholder="Confirm your password ">
+    </div>
+     <p> <input type="checkbox" name="Terms" VALUE="Conditions" required>I accept the <a href="TermsConditions.html" rel="nofollow noopener">Terms and Conditions</a></p>
+    <div class="input-group">
+        <button type="submit" class="btn" name="register_btn">Register</button>
+    </div>
+    <p>
+        Already a member? <a href="login.html">Sign in</a>
+    </p>
+</form>
+
+ <div id="footer">
+            <span> <a><STRONG>Help The Homeless In Cardiff</STRONG></a></span>
+    </div>
+
+</body>
+</html>
+            
+
+               
+       
